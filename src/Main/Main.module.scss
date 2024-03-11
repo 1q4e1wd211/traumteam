@@ -1,0 +1,130 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url('https://staticdelivery.nexusmods.com/images/3333/15905-1610765303.png') center / cover;
+    font-family: 'Bebas Neue', sans-serif;
+
+
+    .welcome{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        
+        h1{
+            position: absolute;
+            bottom: 150px;
+            left: 180px;
+            color: rgb(206, 0, 0);
+            font-size: 100px;
+            font-family: 'Bebas Neue', sans-serif;
+            // z-index: 1;
+        }
+    }
+
+    .top{
+        width: 90%;
+        // height: 500px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5%;
+        background-color: gainsboro;
+
+        img{
+            width: 600px;
+        }
+
+        .text{
+            position: relative;
+            left: -500px;
+        }
+    }
+
+    .bot{
+        width: 90%;
+        // height: 500px;
+        display: flex;
+        padding: 10px 5%;
+        background-color: gainsboro;
+        text-align: left;
+        transition: 0.5s;
+
+       
+
+        img{
+            width: 600px;
+            margin-right: 15px;
+        }
+        .med{
+            width: 100%;
+            justify-content: center;
+            margin-left: 20px;
+            font-family: 'Bebas Neue', sans-serif;
+            
+
+            .top2{
+                display: flex;
+
+                div{
+                    border: solid rgb(204, 0, 0) 5px;
+                    border-radius: 20px;
+                    width: 200px;
+                    height: 200px;
+                    margin-left: 20px;
+                    margin-top: 10px;
+                    flex-direction: column;
+                    display: flex;
+                    text-align: center;
+                    justify-content: center;
+                    cursor: pointer;
+
+                    i{
+                        font-size: 50px;
+                    }
+
+                    &:hover{
+                        transition: 0.5s;
+                        background-color: rgba(204, 0, 0, 0.177);
+                        
+                        i{
+                            font-size: 60px;
+                            transition: 0.5s;
+                        }
+                    }
+                }
+            }
+            .bot2{
+                display: flex;
+
+                div{
+                    border: solid rgb(204, 0, 0) 5px;
+                    border-radius: 20px;
+                    flex-direction: column;
+                    display: flex;
+                    text-align: center;
+                    justify-content: center;
+                    margin-left: 20px;
+                    margin-top: 10px;
+                    width: 200px;
+                    height: 200px;
+                    cursor: pointer;
+
+                    i{
+                        font-size: 50px;
+                    }
+
+                    &:hover{
+                        transition: 0.5s;
+                        background-color: rgba(204, 0, 0, 0.177);
+
+                        i{
+                            font-size: 60px;
+                            transition: 0.5s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

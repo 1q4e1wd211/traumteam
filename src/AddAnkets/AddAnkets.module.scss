@@ -1,0 +1,39 @@
+.root{
+    margin: 20px;
+    
+    form{
+        margin-top: 50px;
+        flex-direction: column;
+        display: flex;
+
+        input{
+            border: none;
+            background-color: gainsboro;
+            border-radius: 8px;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+        select{
+            padding: 8px;
+            margin-bottom: 15px;
+            background-color: gainsboro;
+            border-radius: 5px;
+        }
+        button{
+            background-color: rgba(0, 0, 0, 0.689);
+            color: white;
+            padding: 8px;
+            border: none;
+            border-radius: 8px;
+
+            &:hover{
+                background-color: black;
+                transition: 0.3s;
+            }
+        }
+    }
+}

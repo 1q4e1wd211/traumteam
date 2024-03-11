@@ -1,0 +1,95 @@
+.root{
+    padding: 50px 10%;
+    display: flex;
+
+    .left{
+        width: 400px;
+
+        h2{
+
+            .edit{
+                width: 20px;
+                margin-left: 5px;
+            }
+        }
+        
+        p{
+            margin-top: 5px;
+
+        }
+        
+        .edit{
+            width: 15px;
+            margin-left: 5px;
+        }
+
+    
+        img{
+            width: 100%;
+        }
+        border-right: 1px solid black;
+    }
+    .right{
+        width: 400px;
+        background-color: gainsboro;
+
+        h3{
+            border-bottom: 1px solid black;
+            padding: 10px 5px 0px 5px;
+        }
+
+        .data{
+            list-style: none;
+            height: 100%;
+            background-color: gainsboro;
+
+            li{
+                padding: 10px 5px 0px 5px;
+                border-bottom: 1px black  dashed;
+
+            }
+
+            .time{
+                flex-direction: column;
+                display: flex;
+                justify-content: space-between;
+                height: 100%;
+
+                .z{
+                    justify-content: space-between;
+                    margin: 5px 10px;
+                    align-items: center;
+
+                    .error{
+                        cursor: no-drop;
+                        opacity: 50%;
+                    }
+
+                    p{
+                        color: red;
+                    }
+                    .ti{
+                        display: flex;
+                        justify-content: space-between;
+                        margin: 5px 10px;
+                        align-items: center;
+                    }
+                    button{
+                        height: 30px;
+                        background-color: rgba(0, 0, 0, 0.689);
+                        color: white;
+                        padding: 5px 10px;
+                        border: none;
+                        border-radius: 8px;
+
+
+                        &:hover{
+                            background-color: black;
+                            transition: 0.3s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

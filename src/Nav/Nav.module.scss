@@ -1,0 +1,107 @@
+.nav{
+    width: 90%;
+    padding: 5px 5%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.503);
+    z-index: 5;
+        
+    img{
+        width: 250px;
+    }
+    h1{
+        color: black;
+    }
+
+    .link{
+        display: flex;
+
+        .buy{
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+            border-radius: 5px;
+            background-color: green;
+            color: white;
+            width: 60px;
+        }
+
+        .basket{
+            background-color: rgb(190, 190, 190);
+            width: 300px;
+            height: 500px;
+            position: fixed;
+            right: 150px;
+            top: -500px;
+            transition: 0.5s;
+            border-radius: 15px;
+
+            h2{
+                position: absolute;
+                right: 5px;
+                cursor: pointer;
+                top: 5px;
+            }
+
+            .amount{
+                // width: 30px;
+                // height: 0px;
+                // background-color: inherit;
+                // border: none;
+                color: black;
+                // border-radius: 10px;
+            }
+
+            .button{
+                position: absolute;
+                top: 505px;
+                font-size: 24px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                left: 45%;
+
+            }
+            .p{
+                background-color: red;
+                border-radius: 100%;
+                width: 20px;
+                height: 20px;
+                font-size: 18px;
+                text-align: center;
+                align-items: center;
+                position: absolute;
+                color: white;
+                top: 510px;
+                left: 55%;
+            }
+        }
+
+        button{
+            font-size: 20px;
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+            border: 1px gainsboro solid;
+            border-radius: 100%;
+            color: rgb(69, 66, 66);
+        }
+
+
+        p{
+            color: black;
+            // margin-top: 20px;
+            font-family: 'Bebas Neue', sans-serif;
+            // margin-right: 30px;
+            font-weight: bolder;
+            font-size: 23px;
+            // color: rgb(204, 0, 0);
+            // cursor: pointer;
+        }
+        .platinium{
+            color: #F7FF00;
+        }
+    }
+}

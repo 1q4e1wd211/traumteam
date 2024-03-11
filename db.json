@@ -1,0 +1,199 @@
+{
+  "posts": [
+    {
+      "id": "248e",
+      "name": "asdadssadasd",
+      "description": "The best Doctordsa",
+      "foto": "https://www.shutterstock.com/image-photo/healthcare-medical-staff-concept-portrait-600nw-2281024823.jpg",
+      "speciality": "лор",
+      "2024-02-03": [
+        {
+          "time": "10:00"
+        },
+        {
+          "time": "14:30"
+        },
+        {
+          "time": "21:30"
+        },
+        {
+          "time": "15:30"
+        },
+        {
+          "time": "16:30"
+        },
+        {
+          "time": "17:30"
+        }
+      ],
+      "2024-02-09": [
+        {
+          "time": "15:30"
+        }
+      ],
+      "2024-02-04": [
+        {
+          "time": "15:30"
+        }
+      ],
+      "2024-02-05": [
+        {
+          "time": "16:35"
+        },
+        {
+          "time": "15:35"
+        },
+        {
+          "time": "17:30"
+        }
+      ],
+      "2024-02-07": [
+        {
+          "time": "17:30"
+        }
+      ],
+      "2024-02-14": [
+        {
+          "time": "15:30"
+        },
+        {
+          "time": "15:35"
+        },
+        {
+          "time": "15:40"
+        }
+      ],
+      "2024-02-13": [
+        {
+          "time": "3:0"
+        },
+        {
+          "time": "12:0"
+        },
+        {
+          "time": "06:19"
+        },
+        {
+          "time": "15:30"
+        }
+      ],
+      "2024-02-15": [
+        {
+          "time": "15:30"
+        }
+      ]
+    }
+  ],
+  "speciality": [
+    {
+      "id": "c2de",
+      "speciality": "Психолог"
+    },
+    {
+      "id": "447d",
+      "speciality": "стамотолог"
+    },
+    {
+      "id": "5b4f",
+      "speciality": "лор"
+    },
+    {
+      "id": "5c8d",
+      "speciality": "Нейрохирург"
+    },
+    {
+      "id": "e957",
+      "speciality": "Медсестра"
+    }
+  ],
+  "implants": [
+    {
+      "id": "6a2a",
+      "title": "Рука",
+      "price": "2000",
+      "description": "рука как рука",
+      "URL": "https://i.imgur.com/Lvt3AVd.jpg",
+      "corporation": "МилиТех",
+      "partBody": "руки",
+      "weight": "5000",
+      "material": "карбон"
+    },
+    {
+      "id": "4181",
+      "title": "Sandevistan 1.1",
+      "price": "6000",
+      "description": "Имплант позволяющая пользователю увеличивать реакцию и скорость на столько что кажется что само время остановилась",
+      "URL": "https://public-files.gumroad.com/qm2uknkdrr5gzf9fo7hrfi8k0u5c",
+      "corporation": "КангТао",
+      "partBody": "позвоночник",
+      "weight": "10000",
+      "material": "титан"
+    },
+    {
+      "id": "bfc3",
+      "title": "Sandevistan 1.0",
+      "price": "5500",
+      "description": "Имплант позволяющая пользователю увеличивать реакцию и скорость на столько что кажется что само время остановилась",
+      "URL": "https://i.etsystatic.com/28614630/r/il/a99785/4741786054/il_fullxfull.4741786054_iglb.jpg",
+      "corporation": "КангТао",
+      "partBody": "позвоночник",
+      "weight": "8000",
+      "material": "титан"
+    },
+    {
+      "id": "4181",
+      "title": "Sandevistan 1.1",
+      "price": "6000",
+      "description": "Имплант позволяющая пользователю увеличивать реакцию и скорость на столько что кажется что само время остановилась",
+      "URL": "https://public-files.gumroad.com/qm2uknkdrr5gzf9fo7hrfi8k0u5c",
+      "corporation": "КангТао",
+      "partBody": "позвоночник",
+      "weight": "10000",
+      "material": "титан"
+    },
+    {
+      "id": "4181ttads",
+      "title": "Sandevistan 1.1",
+      "price": "6000",
+      "description": "Имплант позволяющая пользователю увеличивать реакцию и скорость на столько что кажется что само время остановилась",
+      "URL": "https://public-files.gumroad.com/qm2uknkdrr5gzf9fo7hrfi8k0u5c",
+      "corporation": "КангТао",
+      "partBody": "позвоночник",
+      "weight": "10000",
+      "material": "титан"
+    },
+    {
+      "id": "gft41d81",
+      "title": "Sandevistan 1.1",
+      "price": "6000",
+      "description": "Имплант позволяющая пользователю увеличивать реакцию и скорость на столько что кажется что само время остановилась",
+      "URL": "https://public-files.gumroad.com/qm2uknkdrr5gzf9fo7hrfi8k0u5c",
+      "corporation": "КангТао",
+      "partBody": "позвоночник",
+      "weight": "10000",
+      "material": "титан"
+    },
+    {
+      "id": "412481",
+      "title": "Sandevistan 1.1",
+      "price": "6000",
+      "description": "Имплант позволяющая пользователю увеличивать реакцию и скорость на столько что кажется что само время остановилась",
+      "URL": "https://public-files.gumroad.com/qm2uknkdrr5gzf9fo7hrfi8k0u5c",
+      "corporation": "КангТао",
+      "partBody": "позвоночник",
+      "weight": "10000",
+      "material": "титан"
+    }
+  ],
+  "users": [
+    {
+      "0": 1,
+      "id": "e778",
+      "email": "kudaiberdi0806@gmail.com",
+      "login": "1q4e1wd211",
+      "password": "kudaiberdi",
+      "basket": [],
+      "isAdmin": true
+    }
+  ]
+}

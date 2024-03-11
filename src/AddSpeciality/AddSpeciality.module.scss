@@ -1,0 +1,63 @@
+.root{
+    padding: 40px;
+    
+
+    h1{
+        margin-bottom: 20px;
+    }
+
+    form{
+        flex-direction: column;
+        display: flex;
+
+        input{
+            border: none;
+            border-radius: 8px;
+            background-color: gainsboro;
+            padding: 8px;
+            width: 200px;
+        }
+        button{
+            border: none;
+            border-radius: 9px;
+            background-color: rgba(0, 0, 0, 0.689);
+            padding: 8px;
+            color: white;
+            width: 80px;
+            margin-top: 20px;
+
+            &:hover{
+                background-color: black;
+                transition: 0.3s;
+            }
+        }
+    }
+    
+    .bot{
+        margin-top: 50px;
+    }
+
+    .speciality{
+        display: flex;
+        width: 250px;
+        justify-content: space-between;
+        margin-top: 10px;
+        border-bottom: 1px black solid;
+        padding-bottom: 3px;
+
+        .delete{
+            background-color: rgb(255, 50, 50);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 5px;
+
+            
+    
+            &:hover{
+                background-color: rgb(240, 25, 25);
+            }
+        }
+    }
+    
+}
